@@ -1,0 +1,10 @@
+java=17.0.20.1; vm=OpenJDK 64-Bit Server VM
+os=Windows 11 10.0; arch=amd64; logical_cpus=12
+timer=System.nanoTime; warmup=5 per method per size; measured=5; heap=-Xmx384m
+Includes Input.edges conversion, algorithm data structures and result allocation; excludes generation, JSON parsing, serialization, validation and compilation.
+n=1000 m=2500 seed=251542 method=kruskal ms=[1.210899, 2.3644, 1.8181, 1.1778, 2.138999] median_ms=1.818100 cost=-999000000000 verified=true
+n=1000 m=2500 seed=251542 method=prim ms=[1.8474, 1.9124, 1.4698, 1.6967, 1.8505] median_ms=1.847400 cost=-999000000000 verified=true
+n=10000 m=25000 seed=260542 method=kruskal ms=[9.5548, 9.155499, 10.5794, 13.1451, 9.2308] median_ms=9.554800 cost=-9999000000000 verified=true
+n=10000 m=25000 seed=260542 method=prim ms=[11.418499, 11.0907, 13.2025, 19.3023, 13.1778] median_ms=13.177800 cost=-9999000000000 verified=true
+n=100000 m=250000 seed=350542 method=kruskal ms=[189.1793, 201.4663, 195.956099, 176.328201, 192.178] median_ms=192.178000 cost=-99999000000000 verified=true
+n=100000 m=250000 seed=350542 method=prim ms=[479.5274, 451.06, 415.135, 470.4875, 393.9205] median_ms=451.060000 cost=-99999000000000 verified=true

@@ -1,0 +1,21 @@
+PASS dsu-full: n=100000, edges/operations=250000
+PASS kruskal-chain-full: n=100000, edges/operations=250000
+PASS prim-chain-full: n=100000, edges/operations=250000
+PASS scc-chain-full: n=100000, edges/operations=250000
+PASS topo-chain-full: n=100000, edges/operations=250000
+PASS dag-chain-full: n=100000, edges/operations=250000
+PASS scc-cycle-full: n=100000, edges/operations=250000
+PASS topo-cycle-full: n=100000, edges/operations=250000
+PASS dag-cycle-full: n=100000, edges/operations=250000
+PASS dag-unreachable-cycle-full: n=100000, edges/operations=250000
+PASS kruskal-isolates: n=100000, edges/operations=0
+PASS prim-isolates: n=100000, edges/operations=0
+PASS scc-isolates: n=100000, edges/operations=0
+PASS topo-isolates: n=100000, edges/operations=0
+PASS dag-isolates: n=100000, edges/operations=0
+PASS topo-star-full: n=100000, edges/operations=250000
+PASS ping-reset: n=0, edges/operations=0
+PASS dsu-reset: n=3, edges/operations=2
+PASS 18 requests in one JVM, -Xmx384m, timeout=20s; elapsed=2.824s
+input_sha256=35f5e402b218b7c03af1184410d6f8a13b162404718d56f59a6e559be98b9710
+output_sha256=73266c4026d643b9caa87dda2608be0c59be17982d6ad68390688bd67f7a574f

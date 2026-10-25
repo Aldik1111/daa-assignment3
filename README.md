@@ -1,3 +1,17 @@
+# Assignment 3: Java solution
+
+Student: Irtay Aldiyar, 250542. Language: Java 17.
+
+- Implementation: [src/Java/Algorithms.java](src/Java/Algorithms.java)
+- Explanation, complexity and measured comparison: [ANALYSIS.md](ANALYSIS.md)
+- Own test cases, checks and actual results: [tests/README.md](tests/README.md)
+
+Run `python tools/run.py --check` from this folder to compile Java and run the public cases.
+Run `python tests/check_solution.py` for the independent own tests.
+The other language folders are unchanged parts of the supplied template; `submission.json` selects Java.
+
+The original assignment specification follows below.
+
 # Assignment 3: Graph Algorithms for a Campus Festival
 
 [Assignment (PDF, English)](docs/Assignment_3_EN.pdf) · [Задание (PDF, русский)](docs/Assignment_3_RU.pdf)

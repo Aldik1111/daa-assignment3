@@ -1,0 +1,8 @@
+Example parent_edge=[-1, 0, 2, 3, -1]
+reachable: reconstructRoute(0, 3, edges, parentEdge) = [0, 1, 2, 3]; edge_ids=[0, 2, 3]; cost=0
+source: reconstructRoute(0, 0, edges, parentEdge) = [0]; edge_ids=[]; cost=0
+unreachable: reconstructRoute(0, 4, edges, parentEdge) = []; edge_ids=[]; cost=null
+Tied parent_edge=[-1, 0, 2, 4, -1]
+parallel: reconstructRoute(0, 1, edges, parentEdge) = [0, 1]; edge_ids=[0]; cost=2
+tied: reconstructRoute(0, 3, edges, parentEdge) = [0, 2, 3]; edge_ids=[2, 4]; cost=5
+PASS deep route: 100000 vertices; cost=-99999000000000

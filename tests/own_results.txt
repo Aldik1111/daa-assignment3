@@ -1,0 +1,5 @@
+kruskal: accepted two valid answers; rejected invalid witness
+scc: accepted two valid answers; rejected invalid witness
+topo: accepted two valid answers; rejected invalid witness
+dag: accepted two valid answers; rejected invalid witness
+PASS 726 own cases, repeated twice in one JVM (1452 results); seed=250542
